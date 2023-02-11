@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-weight: 12;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+
+    position:sticky;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 6px;
+    background-color: #20d9d9;
+    border-radius: 36px;
+    display: flex;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.navbar li{
+    float: right;
+    padding: 8px;
+    margin: 8px 8px;
+    
+   }
+
+.navbar ul{
+overflow: auto;
+
+}   
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar h1:hover{
+
+    cursor: pointer;
+    color: slategrey;
+}
+
+
+.navbar li a:hover{
+    color: black;
+}
+
+.hero h1{
+    float: left;
+    font-size: 60px;
+    position: relative;
+    padding: 4px ;
+    margin: 10px 10px;
+    text-align: center;
+    top: 220px;
+    left: 20px;
+    z-index: 2;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+.hero h1:hover{
+    -webkit-text-fill-color: black;
+    transform:translateY(-10px);
+
+
+}
+
+
+
+.img-box{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    height: 80%;
+    width: 65%;
+    background-image: url(./Img/image.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section{
+    width: 80%;
+    height: 80px auto ;
+
+}
+
+.div title{
+
+    text-align: center;
+    font: 2vmin;
+    color: black;
+
+
+}
